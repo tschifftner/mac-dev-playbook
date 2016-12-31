@@ -1,7 +1,7 @@
 ---
 - name: geerlingguy.dotfiles
 - name: geerlingguy.homebrew
-- name: fubarhouse.sublime-drupal
+#- name: fubarhouse.sublime-drupal
 - name: fubarhouse.macdock
 - name: fubarhouse.macfonts
 - name: fubarhouse.macstore

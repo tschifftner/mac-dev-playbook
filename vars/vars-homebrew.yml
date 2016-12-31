@@ -17,11 +17,11 @@ homebrew_installed_packages:
   - php56-xdebug
   - ssh-copy-id
   - cowsay
-  - ios-sim
+#  - ios-sim
   - readline
-  - subversion
+#  - subversion
   - openssl
-  - drush
+#  - drush
   - wget
 
 homebrew_taps:
@@ -49,7 +49,7 @@ homebrew_cask_apps:
   - steam
   - kodi
   - vlc
-  - xbox360-controller-driver
+#  - xbox360-controller-driver
   # Information
   - geekbench
   - mactracker
