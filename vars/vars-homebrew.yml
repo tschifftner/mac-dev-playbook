@@ -38,10 +38,12 @@ homebrew_cask_apps:
   - google-chrome
   - firefoxdeveloperedition
   # Cloud-based storage
-  - dropbox
-  - google-drive
+#  - dropbox
+#  - google-drive
   # Communication
-  - google-hangouts
+#  - google-hangouts
+  - skype
+  - whatsapp
   # Creative
   - adobe-creative-cloud
   - jetbrains-toolbox
@@ -51,8 +53,8 @@ homebrew_cask_apps:
   - vlc
 #  - xbox360-controller-driver
   # Information
-  - geekbench
-  - mactracker
+#  - geekbench
+#  - mactracker
   # Tools
   - ccleaner
   - iterm2
@@ -64,3 +66,15 @@ homebrew_cask_apps:
   - tower
   - virtualbox
   - vagrant
+  - docker
+  - docker-toolbox
+  - lastpass
+  - cheatsheet
+  - sequel-pro
+  - toggldesktop
+  - transmit
+  - moneymoney
+  - evernote
+  - skitch
+  - slack
+  - dash
