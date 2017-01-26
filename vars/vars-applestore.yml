@@ -12,3 +12,9 @@ mac_store_apps: []
 #    id: 425264550
 #  - name: Microsoft OneDrive
 #    id: 823766827
+  - name: Dont Sleep
+    id: 466314666
+  - name: Microsoft Remote Desktop
+    id: 715768417
+#  - name: Lastpass
+#    id: 324613447
