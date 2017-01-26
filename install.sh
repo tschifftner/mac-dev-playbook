@@ -5,12 +5,13 @@
 
 if [[ -z $(which brew) ]]; then
   echo "Installing Homebrew...";
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" > /dev/null;
+  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 fi
 
 if [[ -z $(which ansible) ]]; then
     echo "Installing Ansible";
-    brew install ansible > /dev/null;
+    brew install ansible
 fi
 
 WHOAMI=$(whoami);
@@ -35,5 +36,6 @@ ansible-galaxy install -r ./requirements.yml;
 echo "Initiating playbook";
 
 ansible-playbook ./main.yml -i inventory -U $(whoami) --ask-sudo-pass;
+#sudo ansible-playbook ./main.yml -i inventory;
 
 echo "Done.";
