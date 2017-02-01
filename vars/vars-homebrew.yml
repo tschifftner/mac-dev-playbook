@@ -16,7 +16,7 @@ homebrew_installed_packages:
   - php56-mcrypt
   - php56-xdebug
   - ssh-copy-id
-  - cowsay
+#  - cowsay
 #  - ios-sim
   - readline
 #  - subversion
@@ -73,7 +73,7 @@ homebrew_cask_apps:
   - sequel-pro
   - toggldesktop
   - transmit
-  - moneymoney
+#  - moneymoney
   - evernote
   - skitch
   - slack

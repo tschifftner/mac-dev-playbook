@@ -3,7 +3,8 @@
 dotfiles_repo: https://github.com/tschifftner/dotfiles.git
 dotfiles_repo_local_destination: ~/Documents/dotfiles
 dotfiles_files:
-  - .bash_profile
+  - .bash_aliases
+  - .bashrc
   - .gitconfig
   - .gitignore
-  - .osx
+#  - .osx
