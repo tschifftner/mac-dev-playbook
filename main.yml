@@ -7,20 +7,20 @@
     - vars/vars-dotfiles.yml
     - vars/vars-dockutil.yml
     - vars/vars-applestore.yml
-  vars_prompt:
-    - name: app_store_email
-      prompt: Mac Apple Store ID
-      private: no
-      when: app_store_email is undefined
-    - name: app_store_password
-      prompt: Mac Apple Store Password
-      private: yes
-      when: app_store_password is undefined
+#  vars_prompt:
+#    - name: app_store_email
+#      prompt: Mac Apple Store ID
+#      private: no
+#      when: app_store_email is undefined
+#    - name: app_store_password
+#      prompt: Mac Apple Store Password
+#      private: yes
+#      when: app_store_password is undefined
 
   roles:
     - geerlingguy.homebrew
     - geerlingguy.dotfiles
-    - fubarhouse.macstore
+#    - fubarhouse.macstore
     - fubarhouse.macfonts
     - fubarhouse.macdock
 
