@@ -35,7 +35,7 @@ ansible-galaxy install -r ./requirements.yml;
 
 echo "Initiating playbook";
 
-ansible-playbook ./main.yml -i inventory -U $(whoami) --ask-sudo-pass;
+ansible-playbook ./main.yml -i inventory -U $(whoami) --ask-become-pass;
 #sudo ansible-playbook ./main.yml -i inventory;
 
 echo "Done.";
