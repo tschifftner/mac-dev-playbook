@@ -1,6 +1,8 @@
 ---
 - name: geerlingguy.dotfiles
+#- name: geerlingguy.homebrew
 - name: geerlingguy.homebrew
+  src: https://github.com/tschifftner/ansible-role-homebrew
 #- name: fubarhouse.sublime-drupal
 - name: fubarhouse.macdock
 - name: fubarhouse.macfonts
