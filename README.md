@@ -11,7 +11,7 @@ This playbook will be updated throughout my life with various features, function
   Note that initially you'll need to install xcode command line tools before you can proceed.
   
   1. `xcode-select --install`
-  2. `curl https://raw.githubusercontent.com/fubarhouse/mac-dev-playbook/master/install.sh | bash`
+  2. `curl https://raw.githubusercontent.com/tschifftner/mac-dev-playbook/master/install.sh | bash`
 
 ## Included Applications / Configuration
 
@@ -36,7 +36,6 @@ This playbook will be updated throughout my life with various features, function
   - vagrant
   - virtualbox
   - vlc
-  - xbox360-controller-driver
 
 ### Packages (installed with Homebrew):
 
@@ -55,20 +54,18 @@ This playbook will be updated throughout my life with various features, function
   - php56-mcrypt
   - php56-xdebug
   - ssh-copy-id
-  - cowsay
-  - ios-sim
   - readline
   - subversion
   - openssl
-  - drush
   - wget
   
 ### Apple Store Products
 
-  - BlackMagic Disk Speed test
-  - Microsoft OneDrive
+_None at the moment as the role does not play with authentication currently_
 
-My [dotfiles](https://github.com/fubarhouse/mac-dev-playbook-dotfiles) are also installed into the current user's home directory.
+# Dotfiles
+
+My [dotfiles](https://github.com/tschifftner/dotfiles) are also installed into the current user's home directory.
 
 ## Ansible for DevOps
 
@@ -76,7 +73,8 @@ Check out [Ansible for DevOps](http://www.ansiblefordevops.com/), which will tea
 
 ## Special thanks
 
-[Jeff Geerling](http://jeffgeerling.com/) for creating the amazing [mac-dev-playbook](https://github.com/geerlingguy/mac-dev-playbook).
+- [Karl Hepworth](https://github.com/fubarhouse) for a great playbook I was able to fork. 
+- [Jeff Geerling](http://jeffgeerling.com/) for creating the amazing [mac-dev-playbook](https://github.com/geerlingguy/mac-dev-playbook).
 
 ## Authors/Contributors
 
