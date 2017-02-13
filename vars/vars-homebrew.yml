@@ -23,6 +23,11 @@ homebrew_installed_packages:
   - openssl
 #  - drush
   - wget
+  - composer
+  - modman
+  - awscli
+  - n98-magerun
+  - n98-magerun2
 
 homebrew_taps:
   - caskroom/cask
