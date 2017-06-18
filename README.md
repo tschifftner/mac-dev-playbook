@@ -41,13 +41,19 @@ This playbook will be updated throughout my life with various features, function
 ### Packages (installed with Homebrew):
 
   - ansible
+  - awscli
+  - composer
   - dockutil
   - git
   - go
   - gpg
+  - openssl
   - python
   - sqlite
   - mcrypt
+  - modman
+  - n98-magerun
+  - n98-magerun2
   - npm
   - nvm
   - ssh-copy-id
