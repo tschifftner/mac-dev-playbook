@@ -19,6 +19,11 @@ homebrew_installed_packages:
   - readline
   - openssl
   - wget
+  - composer
+  - modman
+  - awscli
+  - n98-magerun
+  - n98-magerun2
 
 homebrew_taps:
   - caskroom/cask
