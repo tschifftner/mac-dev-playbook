@@ -9,19 +9,15 @@ homebrew_installed_packages:
   - python
   - sqlite
   - mcrypt
-  - mysql
+#  - mysql
   - npm
   - nvm
-  - php56
-  - php56-mcrypt
-  - php56-xdebug
+#  - php56
+#  - php56-mcrypt
+#  - php56-xdebug
   - ssh-copy-id
-#  - cowsay
-#  - ios-sim
   - readline
-#  - subversion
   - openssl
-#  - drush
   - wget
 
 homebrew_taps:
@@ -38,10 +34,10 @@ homebrew_cask_apps:
   - google-chrome
   - firefoxdeveloperedition
   # Cloud-based storage
-#  - dropbox
-#  - google-drive
+  - dropbox
+  - google-drive
   # Communication
-#  - google-hangouts
+  - google-hangouts
   - skype
   - whatsapp
   # Creative
@@ -51,19 +47,12 @@ homebrew_cask_apps:
   - steam
   - kodi
   - vlc
-#  - xbox360-controller-driver
-  # Information
-#  - geekbench
-#  - mactracker
   # Tools
   - ccleaner
   - iterm2
   # Tools - Development
-  - filezilla
-  - gitkraken
   - sublime-text
   - teamviewer
-  - tower
   - virtualbox
   - vagrant
   - docker
@@ -73,8 +62,7 @@ homebrew_cask_apps:
   - sequel-pro
   - toggldesktop
   - transmit
-#  - moneymoney
-  - evernote
-  - skitch
+  - moneymoney
   - slack
   - dash
+  - launchbar

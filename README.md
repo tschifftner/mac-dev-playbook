@@ -19,21 +19,22 @@ This playbook will be updated throughout my life with various features, function
 
   - adobe-creative-cloud
   - ccleaner
+  - cheatsheet
+  - dash
   - dropbox
   - filezilla
   - firefoxdeveloperedition
-  - gitkraken
   - google-chrome
   - google-drive
   - google-hangouts
   - iterm2
   - jetbrains-toolbox
   - kodi
+  - launchbar
+  - slack
   - steam
   - sublime-text
   - teamviewer
-  - tower
-  - vagrant
   - virtualbox
   - vlc
 
@@ -47,22 +48,18 @@ This playbook will be updated throughout my life with various features, function
   - python
   - sqlite
   - mcrypt
-  - mysql
   - npm
   - nvm
-  - php56
-  - php56-mcrypt
-  - php56-xdebug
   - ssh-copy-id
-  - readline
-  - subversion
   - openssl
   - wget
   
 ### Apple Store Products
 
-_None at the moment as the role does not play with authentication currently_
-
+  - Dont't Sleep
+  - Lastpass
+  - Microsoft Remote Desktop
+  
 # Dotfiles
 
 My [dotfiles](https://github.com/tschifftner/dotfiles) are also installed into the current user's home directory.
