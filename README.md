@@ -15,7 +15,7 @@ This playbook will be updated throughout my life with various features, function
 
 ## Included Applications / Configuration
 
-###Applications (installed with Homebrew Cask):
+### Applications (installed with Homebrew Cask):
 
   - adobe-creative-cloud
   - ccleaner
