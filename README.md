@@ -11,7 +11,12 @@ This playbook will be updated throughout my life with various features, function
   Note that initially you'll need to install xcode command line tools before you can proceed.
   
   1. `xcode-select --install`
-  2. `curl https://raw.githubusercontent.com/tschifftner/mac-dev-playbook/master/install.sh | bash`
+  
+  2. `chown root:admin /usr/local/`
+  
+  3. `chmod 775 /usr/local`
+  
+  4. `curl https://raw.githubusercontent.com/JulianBour/mac-dev-playbook/master/install.sh | bash`
 
 ## Included Applications / Configuration
 

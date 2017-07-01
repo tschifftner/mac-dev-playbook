@@ -25,8 +25,8 @@ if [[ -d "/Users/${WHOAMI}/.setup" ]]; then
     rm -rf "/Users/${WHOAMI}/.setup" > /dev/null;
 fi
 
-git clone https://github.com/tschifftner/mac-dev-playbook.git "/Users/${WHOAMI}/.setup" > /dev/null;
-git clone https://github.com/tschifftner/dotfiles.git "/Users/${WHOAMI}/Documents/dotfiles" > /dev/null;
+git clone https://github.com/JulianBour/mac-dev-playbook.git "/Users/${WHOAMI}/.setup" > /dev/null;
+git clone https://github.com/JulianBour/dotfiles.git "/Users/${WHOAMI}/Documents/dotfiles" > /dev/null;
 
 cd "/Users/${WHOAMI}/.setup/";
 
