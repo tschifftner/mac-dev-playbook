@@ -43,14 +43,14 @@ homebrew_cask_apps:
   - google-drive
   # Communication
   - google-hangouts
-  - skype
+  # skype
   - whatsapp
   # Creative
-  - adobe-creative-cloud
+  # adobe-creative-cloud
   - jetbrains-toolbox
   # Entertainment
   - steam
-  - kodi
+  # kodi
   - vlc
   # Tools
   - ccleaner
@@ -67,7 +67,7 @@ homebrew_cask_apps:
   - sequel-pro
   - toggldesktop
   - transmit
-  - moneymoney
+  # moneymoney
   - slack
   - dash
   - launchbar
